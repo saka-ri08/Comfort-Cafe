@@ -1,18 +1,7 @@
-.box1{
-    width: 500px;
-    height: 200px;
-    border: 2px dashed #666;
-}
-.box2{
-    width: 100%;
-    padding: 10px;
-    background-color: #fff4c3;
-    border: 3px solid #ff8410;
-    box-sizing: border-box;
+.content1{
+    background-color: aqua;
 }
 
-@media screen and(max-width: 768px){
-    .box{
-        background-color: green;
-    }
+.content2{
+    background-color: greenyellow;
 }
