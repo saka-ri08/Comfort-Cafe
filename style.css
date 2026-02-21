@@ -1,7 +1,15 @@
-.content1{
-    background-color: aqua;
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.content2{
-    background-color: greenyellow;
+header{
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
 }
