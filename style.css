@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,3 +13,21 @@ header{
 footer{
     width: 100%;
 }
+
+a{
+    text-decoration: none;
+} /* aタグのリンク下線削除　*/
+
+.main-nav {
+    display: flex;
+    list-style: none;
+} /* FlexBoxでナビメニュー横並び、liタグ黒ポチ削除 */
+
+.main-nav li{
+    margin-left: 36px;
+    color: #435;
+} /* main-navクラス名の中のタグのみに配置属性適用　*/
+
+.main-nav li:hover{
+    color: #0ba;
+} /* カーソルを合わせたときの装飾指定　*/
