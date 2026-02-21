@@ -8,6 +8,8 @@ header{
     width: 90%;
     padding: 15px 0;
     margin: 0 auto;
+    display: flex; /* タイトルとナビを横並びに */
+    justify-content: space-between; /* 左右両端に表示 */
 }
 
 footer{
@@ -21,6 +23,7 @@ a{
 .main-nav {
     display: flex;
     list-style: none;
+    margin-top: 14px;
 } /* FlexBoxでナビメニュー横並び、liタグ黒ポチ削除 */
 
 .main-nav li{
@@ -31,3 +34,4 @@ a{
 .main-nav li:hover{
     color: #0ba;
 } /* カーソルを合わせたときの装飾指定　*/
+
