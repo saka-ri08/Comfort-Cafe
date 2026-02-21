@@ -93,3 +93,14 @@ a{
     margin-top: 20%;
     color: #1b0704;
 }
+
+#news{
+    min-height: 270px;
+    margin-bottom: 40px;
+    background-image: url(./img/cafenews.png);
+    background-size: cover;
+}
+
+#news .main-title{
+    text-align: center;
+}
