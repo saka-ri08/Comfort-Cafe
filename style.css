@@ -73,3 +73,23 @@ a{
     background-image: url(./img/cafemain.jpg);
     background-size: cover; /* 画像の比率を保ったまま画面いっぱいにする　*/
 }
+
+.heading a{
+    font-family:'Times New Roman', 'Times New Roman', Times, serif;
+    color: #1b0704;
+}
+
+.main-nav li a{
+    margin-left: 36px;
+    color: #1b0704;
+}
+
+.main-nav li a:hover{
+    color: #0ba;
+}
+
+.main-visual{
+    text-align: center;
+    margin-top: 20%;
+    color: #1b0704;
+}
