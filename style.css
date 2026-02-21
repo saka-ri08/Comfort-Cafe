@@ -39,4 +39,37 @@ a{
     color: #0ba;
 } /* カーソルを合わせたときの装飾指定　*/
 
+.main-visual{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.main-visual p{
+    font-size: 1.2rem;
+    margin: 10px 0 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-title{
+    font-size:4rem;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.btn{
+    font-size: 1.2rem;
+    background-color: #0ba;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.btn:hover{
+    background-color: #0090dd;
+}
+
+#top{
+    min-height: 100vh;
+    background-image: url(./img/cafemain.jpg);
+    background-size: cover; /* 画像の比率を保ったまま画面いっぱいにする　*/
 }
