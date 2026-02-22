@@ -263,3 +263,39 @@ aside p{
 .sweets-table td{
     padding: 10px;
 }
+
+@media screen and (max-width: 575px){
+    .main-title{
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+
+    .main-visual p{
+        padding: 10px 10px 20px 10px;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+
+    .main-nav{
+        margin-top: 7px;
+    }
+
+    .main-nav li{
+        margin-right: 5px;
+    }
+
+    .main-nav li a{
+        margin-left: 0;
+    }
+
+    .main-visual{
+        margin-top: 50%;
+    }
+
+    #top{
+        background-position: center;
+    }
+}
+    
