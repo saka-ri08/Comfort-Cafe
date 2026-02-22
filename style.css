@@ -186,3 +186,14 @@ aside p{
     color: #fff;
     background-color: #0ba;
 }
+
+#menu{
+    min-height: 270px;
+    margin-bottom: 40px;
+    background-image: url(./img/cafemenu.png);
+    background-size: cover;
+}
+
+#menu .main-title{
+    text-align: center;
+}
