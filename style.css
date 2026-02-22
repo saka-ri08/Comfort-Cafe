@@ -264,7 +264,7 @@ aside p{
     padding: 10px;
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 575px){ /* 575px以下のサイズの時の表示について */
     .main-title{
         font-size: 2rem;
         padding: 0 10px;
@@ -296,6 +296,63 @@ aside p{
 
     #top{
         background-position: center;
+    }
+
+    .main-title{
+        margin-top: 40px;
+    } /* これなんで上の同名のくくりと別にするんだろうと思ったけど、メインタイトルの方には影響及ぼしてない……？ */
+
+    .news-contents{
+        display: block;
+    }
+
+    article{
+        width:90%;
+        margin-bottom: 30px;
+    }
+
+    .post-title{
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+
+    .post-date{
+        height: 70px;
+        padding-top: 10px;
+    }
+
+    aside{
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    .menu-drink{
+        display: block;
+    }
+
+    .menu-drink img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .drink{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .menu-sweets{
+        flex-direction: column-reverse;
+    }
+
+    .menu-sweets img{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .sweets{
+        width: 80%;
+        margin-left: 10%;
     }
 }
     
